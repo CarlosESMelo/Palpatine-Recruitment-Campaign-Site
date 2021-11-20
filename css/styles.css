@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+body{
+    color:white;
+    background-color: black;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    margin:auto;
+    max-width: 1500px;
+}
+
+header{
+    background-color: #db201b;
+    color:black;
+    font-family: 'Poller One', cursive;
+    text-align: center;
+    border-top-right-radius:20px ;
+    border-top-left-radius:20px ;
+    padding:10px;   
+}
+.title{
+    font-size: 26px;
+}
+section{
+    padding: 10px;
+    /* https://wallpapercave.com/wp/6zoJTtn.jpg*/
+    background-image: url(../images/Coruscant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.formContainer{
+    background-color: #0a0a0ab4;
+    max-width: 250px;
+    float:right;
+    padding:20px;
+    margin:10px;
+    border-radius: 25px;
+    
+}
+.formContainer h2, .formContainer p{
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+input, select{
+    width: 100%;
+    margin:5px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+    
+}
+input[type="submit"]{
+    background-color: #db201b;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    
+    
+}
+input[type="submit"]:hover{
+    background-color: #0c0101;
+    color: white;
+    
+    
+}
+h2{
+    font-size: 20px;
+}
+footer{
+    
+    text-align: center;
+    background-color: #1614142d;
+    padding:30px;
+
+}
+img{
+    width: 300px;
+    border-radius: 10px;
+    margin-top:50px;
+    }
+.end{
+    width: 40%;
+    display: inline-block;
+    text-align: justify;
+    padding: 20px;
+}
+h3{
+    padding-bottom:20px;
+    position: relative;
+    bottom: 25px;
+}
+.end p{
+    font-size: 16px;
+    position: relative;
+    bottom:30px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 700px) {
+    .title{
+        font-size: 16px;       
+    }
+    
+    .formContainer{
+        float: left;
+        margin-left: 25%;
+    }
+    .end{
+        width: 100%;
+        text-align: justify;
+    }
+    .palpatine{
+        margin-bottom: 50px;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .title{
+        font-size: 16px;       
+    }
+    
+    .formContainer{
+        float: left;
+        margin-left: 15%;
+    }
+    .end{
+        width: 100%;
+        text-align: justify;
+    }
+    .palpatine{
+        margin-bottom: 50px;
+    }
+    
+}
